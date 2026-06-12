@@ -1,0 +1,35 @@
+# Python Cache
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Environments
+.env
+.venv
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+# Project Directories & Generated Data
+data/*.csv
+data/*.xlsx
+logs/*.log
+plots/*.png
+models/*.joblib
+models/*.txt
+models/*.csv
+
+# IDEs
+.vscode/
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.swp
+
+# Jupyter Notebook Checkpoints
+.ipynb_checkpoints/
+ven/

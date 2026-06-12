@@ -1,0 +1,38 @@
+# Exclude virtual environments
+venv/
+env/
+.env
+.env.*
+
+# Exclude git files
+.git/
+.github/
+.gitignore
+
+# Exclude python cache files
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.pytest_cache/
+.ipynb_checkpoints/
+
+# Exclude local runtime artifacts (will be generated dynamically if writeable or kept in-memory)
+data/
+logs/
+models/
+plots/
+
+# Exclude notebooks
+notebooks/
+
+# Exclude configuration files with sensitive info
+.streamlit/secrets.toml
+
+# Exclude test folder (runs in CI, not needed in production container)
+tests/
+
+# Exclude license and docs in core image
+LICENSE
+README.md
+docs/
