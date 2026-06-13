@@ -1,15 +1,5 @@
----
-title: Stock Trend Predictor
-emoji: 📈
-colorFrom: blue
-colorTo: green
-sdk: streamlit
-sdk_version: 1.45.1
-app_file: streamlit_app.py
-pinned: false
----
-
 # 📈 Stock Market Trend Prediction System
+
 
 A complete, production-quality Machine Learning project that predicts next-day stock closing prices using historical data from Yahoo Finance, technical indicators, and multiple regression models.
 
